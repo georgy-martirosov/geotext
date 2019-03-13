@@ -104,7 +104,7 @@ class GeoText(object):
     index = build_index()
 
     def __init__(self, text, country=None):
-        city_regex = r"[A-ZÀ-ÚА-Я]+[a-zà-úа-я]+[ \-]?(?:d[a-uа-я].)?(?:[A-ZÀ-ÚА-Я]+[a-zà-úа-я]+)*"
+        city_regex = r"[A-ZÀ-ÚА-Яа-яa-z]+[a-zà-úа-я]+[ \-]?(?:d[a-uа-я].)?(?:[A-ZÀ-ÚА-Яа-яa-z]+[a-zà-úа-я]+)*"
         candidates = re.findall(city_regex, text)
         # Removing white spaces from candidates
         candidates = [candidate.strip() for candidate in candidates]
