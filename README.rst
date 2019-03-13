@@ -38,7 +38,7 @@ Installation
 ------------
 .. code-block:: bash
 
-        pip install https://github.com/elyase/geotext/archive/master.zip
+        pip install https://github.com/goshka/geotext/archive/master.zip
 
 
 Features
